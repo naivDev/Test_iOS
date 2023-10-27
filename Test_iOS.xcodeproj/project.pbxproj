@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC2063FA2AEC67EC00DBA8B7 /* HeaderSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2063F92AEC67EC00DBA8B7 /* HeaderSectionCell.swift */; };
+		FC8F5A472AEC29EA0022AB6B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F5A462AEC29EA0022AB6B /* CustomCell.swift */; };
 		FC932EAE2AE7819500720D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932EAD2AE7819500720D95 /* AppDelegate.swift */; };
 		FC932EB02AE7819500720D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932EAF2AE7819500720D95 /* SceneDelegate.swift */; };
-		FC932EB22AE7819500720D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932EB12AE7819500720D95 /* ViewController.swift */; };
 		FC932EB52AE7819500720D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC932EB32AE7819500720D95 /* Main.storyboard */; };
 		FC932EB72AE7819C00720D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC932EB62AE7819C00720D95 /* Assets.xcassets */; };
 		FC932EBA2AE7819C00720D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC932EB82AE7819C00720D95 /* LaunchScreen.storyboard */; };
+		FC932EC32AE78E8C00720D95 /* AirportListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932EC22AE78E8C00720D95 /* AirportListModel.swift */; };
+		FC932EC62AE7939000720D95 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932EC52AE7939000720D95 /* ServiceLayer.swift */; };
+		FC932ECA2AE7A60400720D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932EB12AE7819500720D95 /* ViewController.swift */; };
+		FC932ED02AE8F6B000720D95 /* AirportSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932ECF2AE8F6B000720D95 /* AirportSearchPresenter.swift */; };
+		FC932ED42AEA4A6D00720D95 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932ED32AEA4A6D00720D95 /* MapViewController.swift */; };
+		FC932ED62AEA4A8800720D95 /* ListMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932ED52AEA4A8800720D95 /* ListMapViewController.swift */; };
+		FC932ED82AEA6E1500720D95 /* ListMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC932ED72AEA6E1500720D95 /* ListMapPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC2063F92AEC67EC00DBA8B7 /* HeaderSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionCell.swift; sourceTree = "<group>"; };
+		FC8F5A462AEC29EA0022AB6B /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		FC932EAA2AE7819500720D95 /* Test_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC932EAD2AE7819500720D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC932EAF2AE7819500720D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		FC932EB62AE7819C00720D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC932EB92AE7819C00720D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC932EBB2AE7819C00720D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC932EC22AE78E8C00720D95 /* AirportListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportListModel.swift; sourceTree = "<group>"; };
+		FC932EC52AE7939000720D95 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		FC932ECF2AE8F6B000720D95 /* AirportSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSearchPresenter.swift; sourceTree = "<group>"; };
+		FC932ED32AEA4A6D00720D95 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FC932ED52AEA4A8800720D95 /* ListMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMapViewController.swift; sourceTree = "<group>"; };
+		FC932ED72AEA6E1500720D95 /* ListMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMapPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC2063F62AEC670100DBA8B7 /* ProgramicCells */ = {
+			isa = PBXGroup;
+			children = (
+				FC2063F82AEC67D000DBA8B7 /* HeaderSectionCell */,
+				FC2063F72AEC671E00DBA8B7 /* CustomCell */,
+			);
+			path = ProgramicCells;
+			sourceTree = "<group>";
+		};
+		FC2063F72AEC671E00DBA8B7 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC8F5A462AEC29EA0022AB6B /* CustomCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		FC2063F82AEC67D000DBA8B7 /* HeaderSectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC2063F92AEC67EC00DBA8B7 /* HeaderSectionCell.swift */,
+			);
+			path = HeaderSectionCell;
+			sourceTree = "<group>";
+		};
 		FC932EA12AE7819500720D95 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +97,54 @@
 		FC932EAC2AE7819500720D95 /* Test_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FC932EC42AE7931C00720D95 /* ServiceLayer */,
+				FC2063F62AEC670100DBA8B7 /* ProgramicCells */,
+				FC932EC12AE78B7800720D95 /* Model */,
+				FC932ECD2AE8E0F100720D95 /* View */,
+				FC932ECE2AE8F67600720D95 /* Presenter */,
+				FC932ED52AEA4A8800720D95 /* ListMapViewController.swift */,
+				FC932ED32AEA4A6D00720D95 /* MapViewController.swift */,
 				FC932EAD2AE7819500720D95 /* AppDelegate.swift */,
 				FC932EAF2AE7819500720D95 /* SceneDelegate.swift */,
 				FC932EB12AE7819500720D95 /* ViewController.swift */,
-				FC932EB32AE7819500720D95 /* Main.storyboard */,
 				FC932EB62AE7819C00720D95 /* Assets.xcassets */,
 				FC932EB82AE7819C00720D95 /* LaunchScreen.storyboard */,
 				FC932EBB2AE7819C00720D95 /* Info.plist */,
 			);
 			path = Test_iOS;
+			sourceTree = "<group>";
+		};
+		FC932EC12AE78B7800720D95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC932EC22AE78E8C00720D95 /* AirportListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC932EC42AE7931C00720D95 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FC932EC52AE7939000720D95 /* ServiceLayer.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		FC932ECD2AE8E0F100720D95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC932EB32AE7819500720D95 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC932ECE2AE8F67600720D95 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FC932ECF2AE8F6B000720D95 /* AirportSearchPresenter.swift */,
+				FC932ED72AEA6E1500720D95 /* ListMapPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC932EB22AE7819500720D95 /* ViewController.swift in Sources */,
+				FC932ECA2AE7A60400720D95 /* ViewController.swift in Sources */,
+				FC932EC62AE7939000720D95 /* ServiceLayer.swift in Sources */,
+				FC932ED62AEA4A8800720D95 /* ListMapViewController.swift in Sources */,
+				FC932ED82AEA6E1500720D95 /* ListMapPresenter.swift in Sources */,
 				FC932EAE2AE7819500720D95 /* AppDelegate.swift in Sources */,
+				FC932ED42AEA4A6D00720D95 /* MapViewController.swift in Sources */,
+				FC932ED02AE8F6B000720D95 /* AirportSearchPresenter.swift in Sources */,
+				FC2063FA2AEC67EC00DBA8B7 /* HeaderSectionCell.swift in Sources */,
+				FC8F5A472AEC29EA0022AB6B /* CustomCell.swift in Sources */,
 				FC932EB02AE7819500720D95 /* SceneDelegate.swift in Sources */,
+				FC932EC32AE78E8C00720D95 /* AirportListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,11 +377,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Test_iOS/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Permitir obtener tu ubicación para esta app";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Permitir usar tu ubicación";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Permitir el uso de tu ubicacón para ubicar las estaciones más cercanas";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,11 +406,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Test_iOS/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Permitir obtener tu ubicación para esta app";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Permitir usar tu ubicación";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Permitir el uso de tu ubicacón para ubicar las estaciones más cercanas";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
