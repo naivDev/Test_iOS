@@ -78,6 +78,16 @@
 			path = HeaderSectionCell;
 			sourceTree = "<group>";
 		};
+		FC2063FB2AEC73F400DBA8B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC932EB12AE7819500720D95 /* ViewController.swift */,
+				FC932ED32AEA4A6D00720D95 /* MapViewController.swift */,
+				FC932ED52AEA4A8800720D95 /* ListMapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		FC932EA12AE7819500720D95 = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +112,9 @@
 				FC932EC12AE78B7800720D95 /* Model */,
 				FC932ECD2AE8E0F100720D95 /* View */,
 				FC932ECE2AE8F67600720D95 /* Presenter */,
-				FC932ED52AEA4A8800720D95 /* ListMapViewController.swift */,
-				FC932ED32AEA4A6D00720D95 /* MapViewController.swift */,
+				FC2063FB2AEC73F400DBA8B7 /* Controllers */,
 				FC932EAD2AE7819500720D95 /* AppDelegate.swift */,
 				FC932EAF2AE7819500720D95 /* SceneDelegate.swift */,
-				FC932EB12AE7819500720D95 /* ViewController.swift */,
 				FC932EB62AE7819C00720D95 /* Assets.xcassets */,
 				FC932EB82AE7819C00720D95 /* LaunchScreen.storyboard */,
 				FC932EBB2AE7819C00720D95 /* Info.plist */,
